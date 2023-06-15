@@ -9,11 +9,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f9f1604-488c-46ec-976e-bdebc82195de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/main.html" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
