@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f9f1604-488c-46ec-976e-bdebc82195de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/JdbcConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/JdbcConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -161,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686787760922</updated>
-      <workItem from="1686787761997" duration="3527000" />
+      <workItem from="1686787761997" duration="4468000" />
     </task>
     <servers />
   </component>
