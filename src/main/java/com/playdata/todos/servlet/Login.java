@@ -7,9 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
-import static com.playdata.todos.servlet.UserServlet.users;
-
 public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -25,11 +22,10 @@ public class Login extends HttpServlet {
         UserDao userDao = new UserDao();
 
 
-        if(userDao.login2(username,password))
+        if(userDao.login(username,password))
         {
             System.out.println("로그인");
             resp.sendRedirect("/main");
-
         }
         else {
             System.out.println("실패");

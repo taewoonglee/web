@@ -7,11 +7,11 @@ public class User {
     private String password;
     private String createAt;
 
-    public User(Integer id, String username, String name, String password, String createAt) {
+    public User(Integer id, String username, String password, String name, String createAt) {
         this.id = id;
         this.username = username;
-        this.name = name;
         this.password = password;
+        this.name = name;
         this.createAt = createAt;
     }
 
@@ -53,5 +53,16 @@ public class User {
 
     public void setCreateAt(String createAt) {
         this.createAt = createAt;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", createAt='" + createAt + '\'' +
+                '}';
     }
 }
