@@ -7,8 +7,7 @@ import java.sql.SQLException;
         private final String url = "jdbc:mysql://127.0.0.1:3306/todos" +
                 "?serverTimezone=Asia/Seoul&characterEncoding=UTF-8";
         private final String root = "root";
-        private final String password = "1q2w3e4r!@";
-
+        private final String password = "1q2w3e
         public Connection getJdbc() {
             Connection conn;
             try {
@@ -17,8 +16,6 @@ import java.sql.SQLException;
             catch (SQLException e) {
                 throw new RuntimeException(e);
             }
-
             return conn;
         }
-
 }
