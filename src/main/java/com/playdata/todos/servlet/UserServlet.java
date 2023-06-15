@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserServlet extends HttpServlet {
-    public static List<User> users = new ArrayList<User>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

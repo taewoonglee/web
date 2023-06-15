@@ -9,7 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7f9f1604-488c-46ec-976e-bdebc82195de" name="Changes" comment="" />
+=======
+    <list default="true" id="7f9f1604-488c-46ec-976e-bdebc82195de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/LogoutThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/LogoutThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/main.html" afterDir="false" />
+    </list>
+>>>>>>> feature/login3
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Playdata/IdeaProjects/mysql-connector-j-8.0.33.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
