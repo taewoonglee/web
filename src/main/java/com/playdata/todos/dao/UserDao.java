@@ -26,10 +26,6 @@ public class UserDao {
         }
         catch (SQLException e){
             throw new RuntimeException();
-
         }
-
     }
-
-
 }
