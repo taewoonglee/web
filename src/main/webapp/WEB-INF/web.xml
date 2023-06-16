@@ -47,4 +47,14 @@
     <url-pattern>/back</url-pattern>
   </servlet-mapping>
 
+
+  <servlet>
+    <servlet-name>userUpdate</servlet-name>
+    <servlet-class>com.playdata.todos.servlet.UserUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userUpdate</servlet-name>
+    <url-pattern>/userupdate</url-pattern>
+  </servlet-mapping>
+
 </web-app>

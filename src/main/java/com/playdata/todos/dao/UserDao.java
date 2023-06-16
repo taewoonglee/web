@@ -158,6 +158,20 @@ public class UserDao {
         }
         return null;
     }
+    public void chanege (String password, String name , int id){
+        Connection conn = new JdbcConnection().getJdbc();
+            String sql = "update users set password = ? , name = ? where id = ?";
+        try {
+            PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1, password);
+            pst.setString(2, name);
+            pst.setInt(3, id);
+            pst.executeUpdate();
+        } catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+
+    }
     private User makeUser(ResultSet resultSet){
         Integer id;
         String password, username, name, createAt;

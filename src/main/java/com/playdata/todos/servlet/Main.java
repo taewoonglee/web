@@ -2,6 +2,7 @@ package com.playdata.todos.servlet;
 
 import com.playdata.todos.config.History;
 import com.playdata.todos.dao.UserDao;
+import com.playdata.todos.dto.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
@@ -48,6 +49,8 @@ public class Main extends HttpServlet {
 //                "  <h1>" + UserDao.me.getCreateAt() + " 가입했습니다!</h1>\n" +
                     "  <img src=\"/img/ffsf.png\">\n" +
                     "<a href=\"/back\">back</a>\n"+
+//                    "<a href=\"/todos\">+</a>\n"+
+                    "<a href=\"/userupdate\">user update</a>\n"+
                     "</body>\n" +
                     "</html>");
             writer.close();
@@ -58,4 +61,8 @@ public class Main extends HttpServlet {
 
     }
 
+//    @Override
+//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        resp.sendRedirect("/userupdate");
+//    }
 }
