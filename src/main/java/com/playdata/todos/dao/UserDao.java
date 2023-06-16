@@ -136,10 +136,10 @@ public class UserDao {
             throw new RuntimeException(e);
         }
     }
-    public boolean login (String id, String password){
+    public User login (String id, String password){
         List<User> users = new ArrayList<User>();
         Connection conn = new JdbcConnection().getJdbc();
-        String sql = "select id, username, name, create_at "+
+        String sql = "select id, username, password,name, create_at "+
                 "from users "+
                 "where username = ? and password = ?";
         try {
@@ -153,13 +153,10 @@ public class UserDao {
         } catch (SQLException e){
             throw new RuntimeException(e);
         }
-        if (users.size() != 0) {
-            me = users.get(0);
-            System.out.println(me);
-            new LogoutThread().start();
-            return true;
+        if (users.size() != 0)
+        {           return users.get(0);
         }
-        return false;
+        return null;
     }
     private User makeUser(ResultSet resultSet){
         Integer id;
@@ -170,14 +167,14 @@ public class UserDao {
             id = null;
         }
         try {
-            password = resultSet.getString("password");
-        }catch (SQLException e) {
-            password = null;
-        }
-        try {
             username = resultSet.getString("username");
         }catch (SQLException e) {
             username = null;
+        }
+        try {
+            password = resultSet.getString("password");
+        }catch (SQLException e) {
+            password = null;
         }
         try {
             name = resultSet.getString("name");
