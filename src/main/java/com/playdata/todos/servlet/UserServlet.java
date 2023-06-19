@@ -9,15 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserServlet extends HttpServlet {
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        History.setHistory(req,resp);
         resp.setStatus(200);
+        History.setHistory(req, resp);
         req.getRequestDispatcher("views/user.html").forward(req,resp);
     }
 
@@ -26,11 +23,10 @@ public class UserServlet extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String name = req.getParameter("name");
-        User user = new User(null,username,password,name,null);
+        User user = new User(null, username, password, name, null);
         UserDao userDao = new UserDao();
         userDao.insert(user);
-        resp.sendRedirect("/login");  //여기서 다음페이지로 넘어감
-        //super.doPost(req, resp);
+        resp.sendRedirect("/login");
         resp.setStatus(201);
     }
 }

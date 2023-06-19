@@ -10,15 +10,13 @@ import java.io.IOException;
 
 public class BackServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String ret = History.back(req,resp);
+    public void init() throws ServletException {
+        super.init();
+    }
 
-        if(ret=="-1")
-        {
-            resp.sendRedirect("/login");
-        }
-        else {
-            resp.sendRedirect(ret);
-        }
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        History.back(req, resp);
+//        resp.sendRedirect("/main");
     }
 }

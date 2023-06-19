@@ -10,10 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f9f1604-488c-46ec-976e-bdebc82195de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dto/TodoJoinUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e38ad28-4f11-4685-aa5d-62e009073a3d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e38ad28-4f11-4685-aa5d-62e009073a3d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/JdbcConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/config/JdbcConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/BackServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/BackServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playdata/todos/servlet/UserUpdateServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/todos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/todos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +44,7 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -40,35 +58,43 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2RDbm9P5fuvX4yIztccWstyJNWw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Playdata/IdeaProjects/todos/src/main/webapp/views",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Playdata/IdeaProjects/todos&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Playdata\IdeaProjects\todos\src\main\webapp\views" />
@@ -172,21 +198,12 @@
       <option name="presentableId" value="Default" />
       <updated>1686787760922</updated>
       <workItem from="1686787761997" duration="10057000" />
+      <workItem from="1686906137794" duration="4444000" />
+      <workItem from="1687117920177" duration="26256000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/playdata/todos/dao/UserDao.java</url>
-          <line>162</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
